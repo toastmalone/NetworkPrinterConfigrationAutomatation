@@ -10,6 +10,6 @@ namespace NetworkPrinterConfigurationAutomation.Model
         public string PasswordTag { get; set; }
         public string ConfirmPasswordTag { get; set; }
         public string ApplyButtonTag { get; set; }
-        public string ModelTag { get; set; }
+        public string PrinterModelTag { get; set; }
     }
 }
