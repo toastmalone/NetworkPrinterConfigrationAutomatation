@@ -9,7 +9,7 @@ namespace NetworkPrinterConfigurationAutomation.Model
         public string Ip { get; set; }
         public string HostName { get; set; }
         public string PrinterModel { get; set; }
-        public PrinterWebSite HtmlLayout {get; set;}
+        public PrinterWebSiteLayout HtmlLayout {get; set;}
 
     }
 }

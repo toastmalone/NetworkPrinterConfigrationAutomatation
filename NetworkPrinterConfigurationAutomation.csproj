@@ -6,4 +6,11 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="NetworkPrinterConfigurationAutomationTests\**" />
+    <EmbeddedResource Remove="NetworkPrinterConfigurationAutomationTests\**" />
+    <None Remove="NetworkPrinterConfigurationAutomationTests\**" />
+    <Page Remove="NetworkPrinterConfigurationAutomationTests\**" />
+  </ItemGroup>
+
 </Project>
