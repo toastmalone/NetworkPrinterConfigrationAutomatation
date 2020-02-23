@@ -7,7 +7,7 @@ namespace NetworkPrinterConfigurationAutomation.Model
 {
     public class PrinterWebSiteLayout
     {
-        [Key]
+        
         [Required]
         public int Id { get; set; }
         [Required]

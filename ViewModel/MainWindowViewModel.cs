@@ -7,24 +7,30 @@ using System.Windows.Input;
 namespace NetworkPrinterConfigurationAutomation.ViewModel
 {
     public class MainWindowViewModel : ViewModelBase
-    {
-        private string textTest;
-        public string TextTest 
-        { 
-            get { return textTest; }
-            set { SetProperty(ref textTest, value); }
-        }
+    { 
+        private readonly ConfigurePrintersViewModel _configurePrintersViewModel;
 
+        private ViewModelBase _currentViewModel;
+        public ViewModelBase CurrentViewModel { get { return _currentViewModel; } set { SetProperty(ref _currentViewModel, value); } }
         public MainWindowViewModel()
         {
-            textTest = "test";
+            _configurePrintersViewModel = new ConfigurePrintersViewModel(this);
+            _currentViewModel = _configurePrintersViewModel;
         }
+        public DelegateCommand<string> NavCommand => new DelegateCommand<string>(a => OnNav(a));
 
-        public AsyncDelegateCommand<object> Button => new AsyncDelegateCommand<object>(a => ButtonPush());
-
-        private async Task ButtonPush()
+        public void OnNav(string destination)
         {
-            TextTest = "pushed the button";
+
+            switch (destination)
+            {
+                case "configure":
+                    {
+                        CurrentViewModel = _configurePrintersViewModel;
+                        break;
+                    }
+
+            }
         }
     }
 }

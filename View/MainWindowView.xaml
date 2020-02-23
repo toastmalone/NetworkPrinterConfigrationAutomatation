@@ -8,21 +8,19 @@
         xmlns:viewModel="clr-namespace:NetworkPrinterConfigurationAutomation.ViewModel"
         
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="NPCA" Height="450" Width="800">
+
+    <Window.Resources>
+        <DataTemplate DataType="{x:Type viewModel:ConfigurePrintersViewModel}">
+            <view:ConfigurePrintersView/>
+        </DataTemplate>
+    </Window.Resources>
+
     <Window.DataContext>
         <viewModel:MainWindowViewModel/>
     </Window.DataContext>
-    
-    <Grid>
-        <TextBlock>
-            <TextBlock.Style>
-                <Style TargetType="TextBlock">
-                    <Style.Triggers>
-                        <DataTrigger Binding="{Binding TextTest}" />
-                    </Style.Triggers>
-                </Style>
-            </TextBlock.Style>
-        </TextBlock>
-        <Button Command="{Binding Button}"></Button>
+
+    <Grid x:Name="MainContent">
+        <ContentControl Content="{Binding CurrentViewModel}"/>
     </Grid>
 </Window>
