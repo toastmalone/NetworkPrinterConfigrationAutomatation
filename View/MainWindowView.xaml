@@ -8,7 +8,7 @@
         xmlns:viewModel="clr-namespace:NetworkPrinterConfigurationAutomation.ViewModel"
         
         mc:Ignorable="d"
-        Title="NPCA" Height="450" Width="800">
+        Title="NPCA" Height="225" Width="500">
 
     <Window.Resources>
         <DataTemplate DataType="{x:Type viewModel:ConfigurePrintersViewModel}">
