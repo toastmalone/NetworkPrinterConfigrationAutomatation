@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Windows.Input;
 
-namespace NetworkPrinterConfigurationAutomation.ViewModel
+namespace NetworkPrinterConfigurationAutomation.Delegates
 {
     public sealed class DelegateCommand<T> : ICommand
     {

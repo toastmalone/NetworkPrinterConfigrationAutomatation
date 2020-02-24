@@ -1,14 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Configuration;
 
 namespace NetworkPrinterConfigurationAutomation.Model
 {
     class ManagedPrinters
-    { 
-        string Domain { get; set; }
-        string Password { get; set; }
+    {
+        public static string Password { get; } = ConfigurationManager.AppSettings.Get("Password");
         List<Printer> Printers { get; set; }
-
     }
 }
