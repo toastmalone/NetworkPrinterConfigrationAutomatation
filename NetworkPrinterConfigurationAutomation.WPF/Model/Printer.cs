@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace NetworkPrinterConfigurationAutomation.Model
+namespace NetworkPrinterConfigurationAutomation.WPF.Model
 {
     public class Printer
     {
         public string Ip { get; set; }
         public string HostName { get; set; }
         public string PrinterModel { get; set; }
-        public PrinterWebSiteLayout HtmlLayout {get; set;}
+        public PrinterRouteScheme Scheme {get; set;}
         public bool IsAccesible ()
         {
             throw new NotImplementedException();

@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Xml;
-using NetworkPrinterConfigurationAutomation.Model;
+using NetworkPrinterConfigurationAutomation.WPF.Model;
 
 namespace NetworkPrinterConfigurationAutomationTests.ServiceTests
 {
@@ -13,8 +13,8 @@ namespace NetworkPrinterConfigurationAutomationTests.ServiceTests
         [TestInitialize]
         public void TestInit()
         { 
-            PrinterWebSiteLayout printerWebSiteLayout =
-                new PrinterWebSiteLayout()
+            PrinterRouteScheme printerWebSiteLayout =
+                new PrinterRouteScheme()
                 {
                     AdministrationURL = "http:\\adminurl.com",
                     ApplyButtonTag = "apply",

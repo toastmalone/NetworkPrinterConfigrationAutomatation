@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-namespace NetworkPrinterConfigurationAutomation.Model
+namespace NetworkPrinterConfigurationAutomation.WPF.Model
 {
-    public class PrinterWebSiteLayout
+    public class PrinterRouteScheme
     {
         
         [Required]

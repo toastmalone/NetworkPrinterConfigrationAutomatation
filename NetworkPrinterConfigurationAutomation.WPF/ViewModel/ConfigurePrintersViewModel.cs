@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
-using NetworkPrinterConfigurationAutomation.Model;
+using NetworkPrinterConfigurationAutomation.WPF.Model;
 
 namespace NetworkPrinterConfigurationAutomation.ViewModel
 {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Configuration;
 
-namespace NetworkPrinterConfigurationAutomation.Model
+namespace NetworkPrinterConfigurationAutomation.WPF.Model
 {
     class ManagedPrinters
     {

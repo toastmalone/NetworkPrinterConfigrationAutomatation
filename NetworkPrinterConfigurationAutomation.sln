@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetworkPrinterConfigurationAutomation", "NetworkPrinterConfigurationAutomation.csproj", "{546331D7-C7CC-4C1D-A8EB-3CBB68C1D793}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetworkPrinterConfigurationAutomation.Tests", "NetworkPrinterConfigurationAutomation.Tests\NetworkPrinterConfigurationAutomation.Tests.csproj", "{706A9341-2A13-4DFF-85B9-72C04B834E96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkPrinterConfigurationAutomationTests", "NetworkPrinterConfigurationAutomationTests\NetworkPrinterConfigurationAutomationTests.csproj", "{03E45D38-548C-4C55-B25E-B1A9F929782A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetworkPrinterConfigurationAutomation.WPF", "NetworkPrinterConfigurationAutomation.WPF\NetworkPrinterConfigurationAutomation.WPF.csproj", "{228F51F6-7273-4696-88CC-2C6C57996B9B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{546331D7-C7CC-4C1D-A8EB-3CBB68C1D793}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{546331D7-C7CC-4C1D-A8EB-3CBB68C1D793}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{546331D7-C7CC-4C1D-A8EB-3CBB68C1D793}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{546331D7-C7CC-4C1D-A8EB-3CBB68C1D793}.Release|Any CPU.Build.0 = Release|Any CPU
-		{03E45D38-548C-4C55-B25E-B1A9F929782A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{03E45D38-548C-4C55-B25E-B1A9F929782A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{03E45D38-548C-4C55-B25E-B1A9F929782A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{03E45D38-548C-4C55-B25E-B1A9F929782A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{706A9341-2A13-4DFF-85B9-72C04B834E96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{706A9341-2A13-4DFF-85B9-72C04B834E96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{706A9341-2A13-4DFF-85B9-72C04B834E96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{706A9341-2A13-4DFF-85B9-72C04B834E96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{228F51F6-7273-4696-88CC-2C6C57996B9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{228F51F6-7273-4696-88CC-2C6C57996B9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{228F51F6-7273-4696-88CC-2C6C57996B9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{228F51F6-7273-4696-88CC-2C6C57996B9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

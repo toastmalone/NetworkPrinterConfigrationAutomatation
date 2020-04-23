@@ -14,12 +14,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NetworkPrinterConfigurationAutomation.csproj" />
+    <Folder Include="Unit\" />
+    <Folder Include="Unit\ViewModelTests\" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Unit\" />
-    <Folder Include="Unit\ViewModelTests\" />
+    <ProjectReference Include="..\NetworkPrinterConfigurationAutomation.WPF\NetworkPrinterConfigurationAutomation.WPF.csproj" />
   </ItemGroup>
 
 </Project>

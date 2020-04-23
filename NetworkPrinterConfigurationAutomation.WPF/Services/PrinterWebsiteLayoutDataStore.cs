@@ -1,4 +1,4 @@
-﻿using NetworkPrinterConfigurationAutomation.Model;
+﻿using NetworkPrinterConfigurationAutomation.WPF.Model;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NetworkPrinterConfigurationAutomation.Services
 {
-    class PrinterWebsiteLayoutDataStore : IDataStore<PrinterWebSiteLayout>
+    class PrinterWebsiteLayoutDataStore : IDataStore<PrinterRouteScheme>
     {
         public Task<bool> AddItemAsync()
         {
@@ -18,12 +18,12 @@ namespace NetworkPrinterConfigurationAutomation.Services
             throw new NotImplementedException();
         }
 
-        public Task<PrinterWebSiteLayout> GetItemAsync()
+        public Task<PrinterRouteScheme> GetItemAsync()
         {
             throw new NotImplementedException();
         }
 
-        public IEnumerable<PrinterWebSiteLayout> GetItemsAsync()
+        public IEnumerable<PrinterRouteScheme> GetItemsAsync()
         {
             throw new NotImplementedException();
         }
